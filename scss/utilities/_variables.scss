@@ -1,17 +1,17 @@
 //------VARIABLES-------
 $color-primary: #777;
 $color-secondary: #58e1c1;
-$color-secondary-light: lighten($color-secondary, 30%);
+$color-secondary-light: lighten($color-secondary, 15%);
 $color-accent: #51ddfc;
-$color-accent-light: lighten($color-accent, 10%);
+$color-accent-light: lighten($color-accent, 15%);
 $color-error: #e4757a;
-$color-error-light: lighten($color-error, 10%);
+$color-error-light: lighten($color-error, 15%);
 $color-info: #927bc1;
-$color-info-light: lighten($color-info, 10%);
+$color-info-light: lighten($color-info, 15%);
 $color-success: #63cc82;
-$color-success-light: lighten($color-success, 10%);
+$color-success-light: lighten($color-success, 15%);
 $color-warning: #fd7856;
-$color-warning-light: lighten($color-warning, 10%);
+$color-warning-light: lighten($color-warning, 15%);
 
 $color-button: #fff;
 $color-border: #ccc;

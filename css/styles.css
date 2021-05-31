@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: #777;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
@@ -149,37 +163,42 @@
 
 .default {
   background-color: #51ddfc;
+  transition: 0.5s ease-in;
 }
 .default:hover {
-  background-color: #83e7fd;
+  background-color: #9cecfd;
 }
 
 .error {
   background-color: #e4757a;
+  transition: 0.5s ease-in;
 }
 .error:hover {
-  background-color: #eca0a3;
+  background-color: #f1b5b8;
 }
 
 .info {
   background-color: #927bc1;
+  transition: 0.5s ease-in;
 }
 .info:hover {
-  background-color: #af9ed1;
+  background-color: #bdafd9;
 }
 
 .success {
   background-color: #63cc82;
+  transition: 0.5s ease-in;
 }
 .success:hover {
-  background-color: #89d9a1;
+  background-color: #9ddfb0;
 }
 
 .warning {
   background-color: #fd7856;
+  transition: 0.5s ease-in;
 }
 .warning:hover {
-  background-color: #fea088;
+  background-color: #feb4a2;
 }
 
 .form {
@@ -207,20 +226,6 @@
 /* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
-* {
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  color: #777;
-}
-
-p {
-  line-height: 1.45em;
-}
-
-a {
-  text-decoration: none;
-}
-
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */

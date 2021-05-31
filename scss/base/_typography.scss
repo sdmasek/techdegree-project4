@@ -1,5 +1,18 @@
 // ----- TYPOGRAPHY
-
+* {
+    box-sizing: border-box;
+    font-family: $main-font;
+    color: $color-primary;
+  }
+  
+  p {
+    line-height: 1.45em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
 
 
 .headline-primary {

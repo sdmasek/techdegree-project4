@@ -1,5 +1,6 @@
 
 @import 'utilities/variables',
+'utilities/mixins',
 'base/typography',
 'component/images',
 'component/grid',
@@ -10,20 +11,7 @@
 /*              Base styles                      */
 /* ============================================= */
 
-* {
-    box-sizing: border-box;
-    font-family: $main-font;
-    color: $color-primary;
-  }
-  
-  p {
-    line-height: 1.45em;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
+
   
   /* ============================================= */
   /*              Typography                       */
@@ -71,15 +59,11 @@
   
   .container {
     max-width: 1400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    @include center-element;
   }
   
   .centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    @include center-element;
   }
   
   .row {
